@@ -277,9 +277,10 @@ footer {
     color: #F5EBE0;
     
 }
+/* Search Bar CSS */ 
 .round {
     width: 100%;
-    border-radius: 15px;
+    border-radius: 15px; 
     border: 1px #4B5D67 solid;
     padding: 5px 75px 5px 25px;
     position: absolute;
