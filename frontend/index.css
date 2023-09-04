@@ -10,6 +10,7 @@ body {
     background-color:#F5EBE0;
     color: #333;
     line-height: 1.6;
+   
 }
 
 /* Style the header and navigation */
@@ -19,7 +20,12 @@ header {
     padding: 1rem 0;
     text-align: center;
 }
-
+/* Adding Swap Shop Logo */
+.navbar{
+    background-image: url();
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .nav-links {
     list-style: none;
     display: flex;
@@ -36,20 +42,23 @@ header {
     color: #fafafa;
     font-weight: bold;
     transition: color 0.3s ease;
+    
 }
 
 .nav-links a:hover {
     color: #DBA39A;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Style the hero section */
 .hero {
-    background-image: url('hero-background.jpg');
+    background-image: url();
     background-size: cover;
     background-position: center;
     color: #1a1818;
     text-align: center;
-    padding: 100px 0;
+    padding: 100px 100px;
+    margin-bottom:100px;
 }
 
 .hero h1 {
@@ -221,19 +230,20 @@ footer {
 .social-links a {
     display: inline-block;
     margin: 0 10px;
+    list-style-type: none;
+    display: inline-block;
+    box-align :left;
 }
+.privacylinks a{
+    display: inline-block;
+    margin: 5px 14px;
+    list-style-type: none;
+    display: inline-block;
+    box-align: left;
+    color: rgb(255, 255, 255);
+    font-size:1 rem; 
 
-.social-links img {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    transition: transform 0.3s ease;
 }
-
-.social-links img:hover {
-    transform: scale(1.1);
-}
-
 
 /* Hide the payment options initially */
 .hidden {
@@ -309,4 +319,39 @@ footer {
     position: relative;
     width: 190px;
     height: 30px;
+}
+/* Your existing styles here */
+
+/* Style the search container */
+.search {
+    display: flex;
+    align-items:center;
+    margin-left:180%;
+}
+
+/* Style the search input field */
+#search-input {
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+/* Style the search button */
+#search-button {
+    padding: 10px 15px;
+    background-color: #03170f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    
+}
+
+/* Style the search button on hover */
+#search-button:hover {
+    background-color: #083149;
 }

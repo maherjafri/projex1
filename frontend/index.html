@@ -17,23 +17,24 @@
 <body>
     <header>
         <nav class="navbar">
+            <div class="navlogo"></div>
             <div class="logo" >
                 SWAP SHOP
                 <form id="search-form">
                     <div class="search">
-                      <input type="text" name="search" class="round" placeholder="Search" />
-                      <input type="submit" class="corner" value="" />
+                        <input type="text" id="search-input" placeholder="Search products...">
+                        <button id="search-button">Search</button>
                     </div>
                 </form>
             </div>
             <div>
             <ul class="nav-links">
-                <a><li><i class="fa-solid fa-house"></i> <a href="index.html" id="home button"> Home</a></li></a>
-                <a><li><i class="fa-solid fa-tags"></i> <a href="products.html" id="products button"> Products</a></li></a>
-                <a><li><i class="fa-solid fa-user"></i> <a href="feedback.html" id="feedback button"> Feedback</a></li></a>
-                <a><li><i class="fa-solid fa-cart-shopping"></i> <a href="cart.html" id="cart button"> Cart</a></li></a>
-                <a><li><i class="fa-regular fa-credit-card"></i> <a href="checkout.html" id="checkout-button"> Checkout</a></li></a>
-            </div>  
+                <li><i class="fa-solid fa-house"></i><a href="index.html"> Home</a></li>
+                <li><i class="fa-solid fa-address-card"></i> <a href="aboutus.html"> About us</a></li>
+                <li><i class="fa-solid fa-cart-shopping"></i><a href="cart.html"> Cart</li>
+                <li><i class="fa-solid fa-credit-card"></i><a href="checkout.html"> Checkout</a></li>
+                <li><i class="fa-solid fa-user"></i><a href="profile.html" id="checkout-button"> Profile</a></li>
+               
             </ul>
         </nav>
     </header>
@@ -102,14 +103,18 @@
     
     <footer>
         <div class="footer-content">
-            <p>&copy; 2023 @Campus Marketplace</p>
+            <p>&copy; 2023 @SWAP SHOP</p>
             <div class="social-links">
-                <a class="account" href="#"><i class="fa-brands fa-square-facebook"></i> Facebook</a>
-                <a class="account" href="#"><i class="fa-brands fa-twitter"></i> Twitter</a>
-                <a class="account" href="https://instagram.com/campu.sm?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><i class="fa-brands fa-instagram"></i> Instagram</a>
+                <ul><p> Connect With Us</p>
+                <li><a class="account" href="#"><i class="fa-brands fa-square-facebook"></i> Facebook</a></li>
+                <li><a class="account" href="#"><i class="fa-brands fa-twitter"></i> Twitter</a></li>
+                <li><a class="account" href="https://instagram.com/campu.sm?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><i class="fa-brands fa-instagram"></i> Instagram</a></li></ul>
             </div>
-            <div>
-                Terms and Conditions T & C
+            
+            <div class="privacylinks">
+                 <a href="#">Terms and Conditions T & C</a>
+                 <a href="#"> Privacy Notice</a>
+                 <a href="#"> Code of Conduct</a>
             </div>
         </div>
     </footer>
